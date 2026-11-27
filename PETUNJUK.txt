@@ -4,7 +4,7 @@ Isi folder:
 - index.html: aplikasi Anda (termasuk PIN 6 digit, penguncian tabungan, dan tagline).
 - manifest.webmanifest: pengaturan nama, logo, dan mode layar penuh.
 - sw.js: cache agar aplikasi bisa dibuka kembali saat offline setelah pernah dimuat.
-- assets/: ikon aplikasi 192 dan 512 piksel.
+- ikon aplikasi 192 dan 512 piksel.
 
 PENTING SEBELUM PINDAH KE HOSTING
 1. Buka aplikasi lama di perangkat/browser tempat data tersimpan.

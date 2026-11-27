@@ -1,0 +1,28 @@
+KEUANGAN VAHN CELL — PAKET PWA
+
+Isi folder:
+- index.html: aplikasi Anda (termasuk PIN 6 digit, penguncian tabungan, dan tagline).
+- manifest.webmanifest: pengaturan nama, logo, dan mode layar penuh.
+- sw.js: cache agar aplikasi bisa dibuka kembali saat offline setelah pernah dimuat.
+- assets/: ikon aplikasi 192 dan 512 piksel.
+
+PENTING SEBELUM PINDAH KE HOSTING
+1. Buka aplikasi lama di perangkat/browser tempat data tersimpan.
+2. Tekan Backup Data dan simpan file JSON di tempat aman.
+3. Upload SEMUA isi folder ini ke satu folder hosting yang mendukung HTTPS.
+   Jangan hanya upload index.html.
+4. Buka alamat HTTPS hosting menggunakan Chrome (Android) atau Safari (iPhone).
+5. Android: menu browser ⋮ > Instal aplikasi / Tambahkan ke layar utama.
+   iPhone: tombol Bagikan di Safari > Tambahkan ke Layar Utama.
+6. Buka aplikasi dari ikon Vahn Cell. Tampilan standalone akan menyembunyikan
+   bilah alamat browser.
+
+Catatan:
+- Membuka index.html langsung dari Acode/file manager tidak mengaktifkan
+  instalasi PWA penuh. Aplikasi harus dibuka dari alamat HTTPS.
+- Data dan PIN tersimpan di penyimpanan browser untuk alamat/domain tersebut.
+  Saat pindah dari file lokal ke alamat hosting, browser menganggapnya sebagai
+  penyimpanan baru. Karena itu, backup data terlebih dahulu dari aplikasi lama.
+- Setelah aplikasi di hosting terbuka, buat PIN baru lalu tekan
+  Pulihkan Backup dan pilih file JSON yang tadi disimpan. Data keuangan akan
+  dipulihkan; PIN lama tidak ikut dipindahkan dan perlu dibuat kembali.
